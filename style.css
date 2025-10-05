@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin: 47px 42px;
+
+}
+
+
+.link-header{
+    color: #17233D;
+    font-weight: 300;
+    font-size: 21px;
+    margin: 32px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header{
+    background: #4CB538;
+    border-radius: 6px;
+    border: 1px solid #6FBF44;
+    width: 150px;
+    height: 65px;
+    border: none;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 21px;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+/* -------------------------------header-------------------------------- */
+
+
+.conteudo-section{
+    
+    display: inline-block;
+    margin-left: 70px;
+    width: 493px;
+
+
+    
+    
+}
+section{
+    display: inline-block;
+    margin-left: 76px;
+}
+
+
+
+.img-section{
+    display: inline-block;
+    width: 568px;
+    height: 500px;
+    margin: 163px 0 0 121px;
+    
+}
+
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    margin-bottom: 47px;
+    margin-right: 57px;
+}
+
+p{
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+
+}
+
+.link-section{
+    color: #6FBF44;
+    font-weight: 400;
+    font-size: 21px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* ------------------------------section-------------------------------- */
+
+
+    
+
+     @media screen and (max-width: 900px) {
+
+            /* ------------------------ botão --------------------------------- */
+
+
+
+header{
+    display: flex;
+    justify-content: end;
+}
+
+.link-header{
+  display: none;
+}
+
+.button-header{
+    display: block;
+    margin: 13px 15px auto 284px;
+    width: 91px;
+    height: 30px;
+    font-size: 13px;
+    position: absolute;
+}
+
+section{
+    display: block;
+    display: flex;
+    flex-direction: column-reverse;
+    position: static;
+}
+
+h1{    
+    margin: 55px 55px auto 55px;
+    text-align: center;
+    line-height: normal;
+    font-size: 30px;
+    width: auto;
+
+}
+
+p{
+
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+    margin: 39px 43px;
+}
+
+.link-section{
+    margin: 0 139px;
+    width: auto;
+}
+
+
+.img-section{
+    width: 90%;
+    height: auto;
+    margin: 22px 39px 22px 39px;
+    display: block;
+    align-items: center;
+
+
+ }
+
+ 
+    }
